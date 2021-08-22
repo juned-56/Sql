@@ -1,0 +1,3 @@
+insert into Employee values(1, "Jhon", 500000, "Uttar Pradesh", "Gurgao");
+insert into Employee values(2, "Smith", 540000, "Rajasthan", "Jaipur");
+insert into Employee values(3, "Mark", 60000, "Delhi", "Noida");
