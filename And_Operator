@@ -5,4 +5,4 @@ insert into Employee values(3, "Mark", 60000, "Delhi", "Noida");
 insert into Employee values(1, "Sarthak", 500000, "Uttar Pradesh", "Gonda");
 insert into Employee values(2, "Juned", 50000, "Rajasthan", "Bikaner");
 insert into Employee values(3, "Juned1", 650000, "Delhi", "Chor Bazar");
-select * from Employee where state = Uttar Pradesh and salary = 500000;                                   //AND Operator
+select * from Employee where state = 'Uttar Pradesh' and salary = 500000;                                   //AND Operator
