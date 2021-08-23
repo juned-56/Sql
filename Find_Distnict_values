@@ -1,0 +1,1 @@
+create table Employee(id int, name varchar(20), salary int(20), state varchar(20), city varchar(20));
