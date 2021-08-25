@@ -6,3 +6,4 @@ insert into Employee values(4, "Sarthak", 400, "Uttar Pradesh", "Gonda");
 insert into Employee values(5, "Juned", 2000, "Rajasthan", "Bikaner");
 insert into Employee values(6, "Juned1", 3000, "Delhi", "Chor Bazar");
 select * from Employee where salary between 400 and 1400;                             //BETWEEN Operation
+select * from Employee where salary not between 2000 and 3000;                        //NOT BETWEEN Operation
