@@ -7,3 +7,4 @@ insert into Employee values(5, "Juned", 50000, "Rajasthan", "Bikaner");
 insert into Employee values(6, "Juned1", 650000, "Delhi", "Chor Bazar");
 select count(name) from Employee;                                                         //COUNT Function
 select sum(salary) from Employee;                                                         //SUM Function
+select avg(salary) from Employee;                                                         //AVERAGE Function
