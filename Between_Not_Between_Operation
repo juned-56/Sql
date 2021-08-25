@@ -1,0 +1,8 @@
+create table Employee(id int, name varchar(20), salary int(20), state varchar(20), city varchar(20));
+insert into Employee values(1, "Jhon", 500, "Uttar Pradesh", "Gurgao");
+insert into Employee values(2, "Smith", 1400, "Rajasthan", "Jaipur");
+insert into Employee values(3, "Mark", 600, "Delhi", "Noida");
+insert into Employee values(4, "Sarthak", 400, "Uttar Pradesh", "Gonda");
+insert into Employee values(5, "Juned", 2000, "Rajasthan", "Bikaner");
+insert into Employee values(6, "Juned1", 3000, "Delhi", "Chor Bazar");
+select * from Employee where salary between 400 and 1400;                             //BETWEEN Operation
