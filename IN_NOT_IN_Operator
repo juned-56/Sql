@@ -5,3 +5,4 @@ insert into Employee values(3, "Mark", 60000, "Delhi", "Noida");
 insert into Employee values(4, "Sarthak", 500000, "Uttar Pradesh", "Gonda");
 insert into Employee values(5, "Juned", 50000, "Rajasthan", "Bikaner");
 insert into Employee values(6, "Juned1", 650000, "Delhi", "Chor Bazar");
+select * from Employee where state in('Uttar Pradesh', 'Delhi');                                                //IN Operation
