@@ -1,1 +1,8 @@
-
+create table Employee(id int, name varchar(20), salary int(20), state varchar(20), city varchar(20));
+insert into Employee values(1, "Jhon", 500000, "Uttar Pradesh", "Gurgao");
+insert into Employee values(2, "Smith", 540000, "Rajasthan", "Jaipur");
+insert into Employee values(3, "Mark", 60000, "Delhi", "Noida");
+insert into Employee values(4, "Sarthak", 500000, "Uttar Pradesh", "Gonda");
+insert into Employee values(5, "Juned", 50000, "Rajasthan", "Bikaner");
+insert into Employee values(6, "Juned1", 650000, "Delhi", "Chor Bazar");
+select city as ct, state as st from Employee;                                             //AS                            
