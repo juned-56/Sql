@@ -33,3 +33,19 @@ INNER JOIN Customer ON Orderr.c_id = Customer.c_id;
 --LEFT JOIN table2
 --ON table1.column_name = table2.column_name;
 
+
+SELECT Customer.c_name, Orderr.o_id, customer.city
+FROM Customer
+LEFT JOIN Orderr
+ON Customer.c_id=Orderr.c_id
+ORDER BY Customer.c_name;
+
+
+                                                    --RIGHT JOIN
+                                                    
+                    --Syntax
+--SELECT column_name(s)
+--FROM table1
+--RIGHT JOIN table2
+--ON table1.column_name = table2.column_name;
+
