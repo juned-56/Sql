@@ -20,3 +20,9 @@ select * from Customer;
 --INNER JOIN table2
 --ON table1.column_name = table2.column_name;
 
+SELECT Orderr.o_id, Customer.c_name, Orderr.quantity, Orderr.s_id, Customer.postal, Customer.country
+FROM Orderr
+INNER JOIN Customer ON Orderr.c_id = Customer.c_id;
+
+
+                                                    --LEFT JOIN
