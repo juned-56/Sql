@@ -1,0 +1,16 @@
+create table Orderr(o_id int primary key not null, c_id int, e_id int, quantity int, s_id int);
+insert into Orderr values(1011, 2, 5, 10, 6);
+insert into Orderr values(1012, 3, 6, 20, 7);
+insert into Orderr values(1013, 4, 7, 70, 8);
+insert into Orderr values(1014, 5, 8, 50, 9);
+select * from Orderr;
+create table Customer(c_id int primary key not null, c_name varchar(20), address varchar(20), city varchar(20), postal int, country varchar(20));
+insert into Customer values(1, "Smith", "Selina", "Kuaka", 373154, "Korea");
+insert into Customer values(3, "Jhon", "Repos", "Pore", 564354, "Maxico");
+insert into Customer values(5, "Ronin", "Joures", "Ninunsa", 986734, "America");
+insert into Customer values(7, "Jack", "Nekos", "Lokee", 347654, "China");
+select * from Customer;
+
+
+                                                      --INNER JOIN
+
