@@ -49,3 +49,11 @@ ORDER BY Customer.c_name;
 --RIGHT JOIN table2
 --ON table1.column_name = table2.column_name;
 
+SELECT Orderr.o_id, Customer.c_name, Orderr.quantity, Customer.country
+FROM Orderr
+RIGHT JOIN Customer
+ON Orderr.o_id = Customer.o_id
+ORDER BY Orderr.o_id;
+
+
+                                                  
